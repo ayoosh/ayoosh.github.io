@@ -1,27 +1,4 @@
 {
-  "basics": {
-    "name": "Ayoosh Bansal",
-    "label": "",
-    "image": "",
-    "email": "ayooshb2@illinois.edu",
-    "phone": "(979) 587-3180",
-    "url": "https://ayooshbansal.com",
-    "summary": "",
-    "location": {
-      // "address": "2712 Broadway St",
-      // "postalCode": "CA 94115",
-      // "city": "San Francisco",
-      // "countryCode": "US",
-      // "region": "California"
-    },
-    "profiles": [
-      {
-        // "network": "Twitter",
-        // "username": "AlbertEinstein",
-        // "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
   "work": [
     {
       "name": "Cyber Physical Systems Integration Lab",
