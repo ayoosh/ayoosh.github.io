@@ -19,8 +19,8 @@ social: true  # includes social icons below the profile pic
 
 <div style="text-align: justify;">
 
-
-The goal of my research is to create effective and efficient systems to solve intricate challenges.
+I am passionate about crafting efficient systems to overcome complex challenges,
+striving to unravel intricacies with elegantly simple solutions. 
 My problem-solving methodology revolves around harnessing expertise across diverse layers within a system,
  fostering collaboration among components,
  and prioritizing simplicity in design.
@@ -32,14 +32,20 @@ This research is advised by <a href="https://cs.illinois.edu/about/people/facult
 
 </div>
 
-<!-- You can <a href="{{ site.baseurl }}/path/to/internal/page/">click here</a> to visit an internal page. This is some text that will be justify-aligned. Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+<br>
+<br>
+
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ONt4fxt-biE?si=b9a-kDg9OUEE6mjA" title="Research Summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <br>
 <br>
 
 
 
-## projects
+## Projects
 ---
 
 <!-- pages/projects.md -->
