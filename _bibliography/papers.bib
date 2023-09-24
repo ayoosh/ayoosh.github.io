@@ -161,12 +161,32 @@
   year={2022},
   organization={Springer Nature Switzerland Cham},
   pdf={https://adambates.org/documents/Bansal_Esorics22.pdf},
-  selected={true},
   abbr={Conference},
   bibtex_show=true,
   code={https://bitbucket.org/sts-lab/ellipsis},
   slides={ellipsis_esorics_2022.pdf},
 }
+
+@article{bansal2023system,
+  abbr         = {Journal},
+  bibtex_show  = {true},
+  selected     = {true},
+  pdf          = {https://dl.acm.org/doi/pdf/10.1145/3625229},
+  code         = {https://bitbucket.org/sts-lab/ellipsis},
+  abstract  = {System auditing is an essential tool for detecting malicious events and conducting forensic analysis. Although used extensively on general-purpose systems, auditing frameworks have not been designed with consideration for the unique constraints and properties of Real-Time Systems (RTS). System auditing could provide tremendous benefits for security-critical RTS. However, a na\"{\i}ve deployment of auditing on RTS could violate the temporal requirements of the system while also rendering auditing incomplete and ineffectual. To ensure effective auditing that meets the computational needs of recording complete audit information while adhering to the temporal requirements of the RTS, it is essential to carefully integrate auditing into the real-time (RT) schedule. This work adapts the Linux Audit framework for use in RT Linux by leveraging the common properties of such systems, such as special purpose and predictability. Ellipsis, an efficient system for auditing RTS is devised that learns the expected benign behaviors of the system and generates succinct descriptions of the expected activity. Evaluations using varied RT applications show that Ellipsis reduces the volume of audit records generated during benign activity by up to 97.55\%, while recording detailed logs for suspicious activities. Empirical analyses establish that the auditing infrastructure adheres to the properties of predictability and isolation that are important to RTS. Furthermore, the schedulability of RT task sets under audit is comprehensively analyzed to enable the safe integration of auditing in RT task schedules.},
+  address   = {New York, NY, USA},
+  author    = {Bansal, Ayoosh and Kandikuppa, Anant and Hasan, Monowar and Chen, Chien-Ying and Bates, Adam and Mohan, Sibin},
+  doi       = {10.1145/3625229},
+  issn      = {2471-2566},
+  journal   = {ACM Trans. Priv. Secur.},
+  keywords  = {security auditing, model-based reduction, cyber-physical systems},
+  month     = {sep},
+  publisher = {Association for Computing Machinery},
+  title     = {System Auditing for Real-Time Systems},
+  url       = {https://doi.org/10.1145/3625229},
+  year      = {2023}
+}
+
 
 @article{chen2023schedguard++,
   title={SchedGuard++: Protecting against Schedule Leaks Using Linux Containers on Multi-Core Processors},

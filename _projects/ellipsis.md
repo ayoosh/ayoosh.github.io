@@ -5,7 +5,7 @@ description: Security Auditing for Real-Time Systems
 img: assets/img/ellipsis.png
 importance: 2
 category:
-related_publications: bansal2022towards, bansal2022ellipsis
+related_publications: bansal2022towards, bansal2022ellipsis, bansal2023system
 selected: true
 ---
 
