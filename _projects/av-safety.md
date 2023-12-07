@@ -5,7 +5,7 @@ description: Verifiable Safety for Autonomous Vehicles
 img: assets/img/polaris-gem.png
 importance: 1
 category: 
-related_publications: bansal2021risk, bansal2022verifiable, bansal2022synergistic
+related_publications: bansal2021risk, bansal2022verifiable, bansal2022synergistic, bansal2023synergistic
 selected: true
 ---
 
