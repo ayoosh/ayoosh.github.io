@@ -1,200 +1,179 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Cyber Physical Systems Integration Lab",
+      "position": "Graduate Research Assistant",
+      "url": "https://cps-il.github.io/",
+      "startDate": "2017-08-00",
+      "endDate": "",
+      "summary": "Conducted diverse research within the realms of cyber-physical and real-time systems, enhancing functional safety, bolstering system security, and refining temporal predictability.",
+      "highlights": [
+        "Ongoing work on Synergistic Simplex system architecture that harnesses cooperation among safety- and mission-critical elements, as well as between perception and control modules, to enhance the safety and performance of autonomous ground and aerial vehicles.",
+        "Devised Perception Simplex, a system architecture for autonomous vehicles that decouples mission and safety responsibilities, providing verifiable obstacle detection and deterministic collision avoidance within the operational design domain.",
+        "Recognizing the lack of context-aware metrics for object detection in autonomous driving, created Risk Ranked Recall.",
+        "Optimized security auditing for real-time applications, creating Ellipsis. Harnessing the inherent predictability of behaviors in real-time applications, Ellipsis all but eliminates the possibility of audit event loss during typical operation and significantly curtails auditing data volume (> 90%) while preserving security-relevant information.",
+        "Introduced a new memory type, Inner Non-Cacheable, Outer Cacheable, empowering real-time applications to bypass cache coherence mechanisms and mitigate memory access latency variability selectively for shared data, with no impact on private data. Prototype implementation on Linux Kernel and Gem5 simulator, yielded 52% less worst-case latency and negligible impact on performance.",
+        "Helped design security-aware task scheduling for real-time applications and input prioritization schemes for object detection DNN."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+      "name": "NVIDIA",
+      "position": "System Software Engineer",
+      "url": "https://www.nvidia.com/",
+      "startDate": "2015-07-00",
+      "endDate": "2017-07-00",
+      "summary": "",
+      "highlights": [
+        "Developed device drivers to manage memory bandwidth allocations and participated in kernel bring-up on Tegra Parker SoC.",
+        "Developed the infrastructure to deploy Linux Kernel on the full-chip simulation platform for Tegra Xavier SoC.",
+        "Successfully led a cross-organizational effort to integrate the new full-chip simulation platform with a new regression testing infrastructure.",
+        "Mentored an internship project which overhauled simulator software startup process to create a seamless silicon like flow."
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "position": "Automotive System Software Intern",
+      "url": "https://www.nvidia.com/",
+      "startDate": "2018-05-00",
+      "endDate": "2017-08-00",
+      "summary": "",
+      "highlights": [
+        "Analysed latency variability  stemming from processor architecture and helped verify proposed solutions."
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "position": "Automotive System Software Intern",
+      "url": "https://www.nvidia.com/",
+      "startDate": "2020-05-00",
+      "endDate": "2020-08-00",
+      "summary": "",
+      "highlights": [
+        "Engineered a hypervisor-level latency analysis system aimed at optimizing applications with stringent latency requirements."
+      ]
+    },
+    {
+      "name": "NetApp",
+      "position": "Member of Technical Staff",
+      "url": "https://www.netapp.com/",
+      "startDate": "2010-07-00",
+      "endDate": "2013-07-00",
+      "summary": "",
+      "highlights": [
+        "Progressed through roles in CIFS server quality assurance, NFS server maintenance, and finally NFS server development.",
+        "Resolved diverse customer issues and escalations, mitigating active disruptions. Conducted SSH CVE applicability analysis.",
+        "Conceptualized an invention optimizing stale mount points handling within NFS server implementations, resulting in a monetary award."
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "position": "Intern, Bluetooth Firmware",
+      "url": "https://www.broadcom.com/",
+      "startDate": "2010-01-00",
+      "endDate": "2010-06-00",
+      "summary": "Developed a Perl based Bluetooth device emulator, capable of emulating different Bluetooth Human Interface Devices with random or replay based output."
+    },
+    {
+      "name": "D-Link",
+      "position": "Summer Trainee",
+      "url": "https://in.dlink.com/",
+      "startDate": "2007-05-00",
+      "endDate": "2007-07-00",
+      "summary": "Implementation of a Concurrent Versions System server and a study oriented project on Network Security."
+    }    
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://cs.illinois.edu/",
+      "area": "Systems and Networking",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2017-08-00",
+      "endDate": "",
+      "score": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "url": "https://engineering.wisc.edu/departments/electrical-computer-engineering/",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science in Electrical Engineering",
+      "startDate": "2013-09-00",
+      "endDate": "2015-05-00",
+      "score": "4/4",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Birla Institute of Technology and Science Pilani, India",
+      "url": "https://www.bits-pilani.ac.in/pilani/",
+      "area": "Electrical and Electronics",
+      "studyType": "Bachelor of Engineering (Hons.) Electrical and Electronics",
+      "startDate": "2006-08-00",
+      "endDate": "2010-07-00",
+      "score": "8.6/10",
+      "courses": [
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "name": "Department of Computer Science, University of Illinois at Urbana-Champaign",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2020-01-00",
+      "endDate": "2020-05-00",
+      "summary": "Conducted labs and initiated efforts to modernize Embedded System Lab projects. Coordinated the switch to remote working due to COVID-19 shutdowns."
+    },
+    {
+      "name": "Department of Physics, University of Wisconsin-Madison",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2013-08-00",
+      "endDate": "2014-05-00",
+      "summary": "Conducted labs, tutorials and consultations. Helped develop a new instruction format which focused on inculcating intuition and visualization of classical mechanics."
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Paper Award",
+      "date": "2020",
+      "awarder": "IEEE Real-Time Systems Symposium",
+      "summary": ""
+    },
+    {
+      "title": "Saburo Muroga Endowed Fellowship",
+      "date": "2017",
+      "awarder": "University of Illinois Urbana-Champaign",
+      "summary": ""
+    },
+    {
+      "title": "Graduate Academic Achievement Award",
+      "date": "2015",
+      "awarder": "ISS, UW-Madison",
+      "summary": ""
+    },
+    {
+      "title": "Best Student Paper",
+      "date": "2015",
+      "awarder": "VLSI Design",
+      "summary": ""
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
+    // {
+    //   "language": "English",
+    //   "fluency": "Fluent"
+    // },
+    // {
+    //   "language": "Hindi",
+    //   "fluency": "Native speaker"
+    // }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "interests": [],
+  "references": [],
+  "projects": []
 }

@@ -16,7 +16,15 @@ layout: default
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>
+          {%- if page.publications != null and page.publications.size > 0 -%}
+          {% assign publications = page.publications | replace: ", ", "," | split: "," | join: "|" %}
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+          </div>
+          {%- endif %}
   {% endif %}
+
+
 
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
