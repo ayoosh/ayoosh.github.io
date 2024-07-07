@@ -118,22 +118,6 @@
       ]
     }
   ],
-  "teaching": [
-    {
-      "name": "Department of Computer Science, University of Illinois at Urbana-Champaign",
-      "position": "Graduate Teaching Assistant",
-      "startDate": "2020-01-00",
-      "endDate": "2020-05-00",
-      "summary": "Conducted labs and initiated efforts to modernize Embedded System Lab projects. Coordinated the switch to remote working due to COVID-19 shutdowns."
-    },
-    {
-      "name": "Department of Physics, University of Wisconsin-Madison",
-      "position": "Graduate Teaching Assistant",
-      "startDate": "2013-08-00",
-      "endDate": "2014-05-00",
-      "summary": "Conducted labs, tutorials and consultations. Helped develop a new instruction format which focused on inculcating intuition and visualization of classical mechanics."
-    }
-  ],
   "awards": [
     {
       "title": "Best Paper Award",
