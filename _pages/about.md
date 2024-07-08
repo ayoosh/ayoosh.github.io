@@ -45,11 +45,11 @@ I also worked at <a href="https://www.netapp.com/">NetApp</a>, developing networ
 <br>
 <br>
 
-<a href="assets/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
+<a href="/assets/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
     <i class="fa-solid fa-file-pdf"></i> Resume (Last Updated: July 7, 2024)
 </a>
 <br>
-<a href="assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
+<a href="/assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
     <i class="fa-solid fa-file-pdf"></i> Curriculum vitae (Last Updated: July 7, 2024)
 </a>
 
