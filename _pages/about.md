@@ -15,8 +15,6 @@ news: true # includes a list of news items
 latest_posts: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-cv_pdf: Resume.pdf
-resume_pdf: CV.pdf
 ---
 
 <div style="text-align: justify;">
@@ -47,17 +45,13 @@ I also worked at <a href="https://www.netapp.com/">NetApp</a>, developing networ
 <br>
 <br>
 
-{% if page.resume_pdf %}
-<a href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" class="float-left">
+<a href="assets/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
     <i class="fa-solid fa-file-pdf"></i> Resume (Last Updated: July 7, 2024)
 </a>
-{% endif %}
 <br>
-{% if page.cv_pdf %}
-<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" class="float-left">
+<a href="assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
     <i class="fa-solid fa-file-pdf"></i> Curriculum vitae (Last Updated: July 7, 2024)
 </a>
-{% endif %}
 
 </div>
 
