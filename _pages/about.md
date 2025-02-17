@@ -32,8 +32,7 @@ Prior works
   and
   enabled <a href="/projects/ellipsis/"> security auditing in real-time systems</a>.
 
-<br>
-<br>
+<br> <br>
 
 I earned my PhD in CS at<a href="https://cs.illinois.edu/"> UIUC </a>,
 advised by <a href="https://cs.illinois.edu/about/people/faculty/lrs">Prof. Lui Sha</a>,
@@ -42,29 +41,20 @@ and BE Hons. EEE at <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a>.
 In the past, I have worked at <a href="https://www.nvidia.com/">Nvidia</a>, addressing execution time variability, building pre-silicon test infrastructure, and developing kernel drivers for Tegra systems.
 I also worked at <a href="https://www.netapp.com/">NetApp</a>, developing networked file systems.
 
-<br>
-<br>
+<br> <br>
+
+Read my <a href="https://hdl.handle.net/2142/125495"> dissertation here </a> or <a href="https://www.youtube.com/embed/ONt4fxt-biE"> watch this video </a> for a summary.
+
+<br> <br>
 
 <a href="/assets/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
-    <i class="fa-solid fa-file-pdf"></i> Resume (Last Updated: Aug 12, 2024)
+    <i class="fa-solid fa-file-pdf"></i> Resume (Last Updated: Feb 17, 2025)
 </a>
 <br>
 <a href="/assets/pdf/CV.pdf" target="_blank" rel="noopener noreferrer" class="float-left">
-    <i class="fa-solid fa-file-pdf"></i> Curriculum vitae (Last Updated: Aug 12, 2024)
+    <i class="fa-solid fa-file-pdf"></i> CV (Last Updated: Feb 17, 2025)
 </a>
 
 </div>
 
-<br>
-<br>
-
-
-<div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ONt4fxt-biE?si=b9a-kDg9OUEE6mjA" title="Research Summary" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="video-description">
-      <p>This video summarizes the research conducted during my PhD.</p>
-    </div>  
-</div>
-
-<br>
-<br>
+<br> <br>
