@@ -133,7 +133,6 @@
   organization={IEEE},
   arxiv={2208.14403},
   pdf={https://arxiv.org/pdf/2208.14403},
-  selected={true},
   abbr={Conference},
   bibtex_show=true,
   code={https://github.com/CPS-IL/verifiable-OD},
@@ -216,6 +215,7 @@
   pdf           = {https://onlinelibrary.wiley.com/doi/epdf/10.1002/stvr.1879},
   abstract = {Advances in deep learning have revolutionized cyber-physical applications, including the development of autonomous vehicles. However, real-world collisions involving autonomous control of vehicles have raised significant safety concerns regarding the use of deep neural networks (DNNs) in safety-critical tasks, particularly perception. The inherent unverifiability of DNNs poses a key challenge in ensuring their safe and reliable operation. In this work, we propose perception simplex (PS), a fault-tolerant application architecture designed for obstacle detection and collision avoidance. We analyse an existing LiDAR-based classical obstacle detection algorithm to establish strict bounds on its capabilities and limitations. Such analysis and verification have not been possible for deep learning-based perception systems yet. By employing verifiable obstacle detection algorithms, PS identifies obstacle existence detection faults in the output of unverifiable DNN-based object detectors. When faults with potential collision risks are detected, appropriate corrective actions are initiated. Through extensive analysis and software-in-the-loop simulations, we demonstrate that PS provides deterministic fault tolerance against obstacle existence detection faults, establishing a robust safety guarantee.
   },
+  code = {https://github.com/CPS-IL/perception_simplex},
 }
 
 
@@ -235,7 +235,6 @@
   bibtex_show   = true,
   pdf           = {https://arxiv.org/pdf/2312.02937.pdf},
   slides        = {scitech2024.pdf},
-  selected={true},
 }
 
 @article{liu2024taming,
@@ -251,22 +250,57 @@
   abbr = {Journal},
 }
 
-@phdthesis{mythesis,
-  address     = {Urbana, IL},
+@article{mythesis,
   author      = {Ayoosh Bansal},
+  school      = {University of Illinois at Urbana-Champaign},
+  journal     = {University of Illinois at Urbana-Champaign},
+  publisher   = {University of Illinois at Urbana-Champaign},
+  title       = {Safe and Secure Autonomous Vehicles},
+  year        = 2024,
   month       = {July},
   url         = {https://hdl.handle.net/2142/125495},
-  school      = {University of Illinois at Urbana-Champaign},
-  title       = {Safe and Secure Autonomous Vehicles},
-  type        = {PhD thesis},
-  year        = 2024,
   pdf         = {https://hdl.handle.net/2142/125495},
   bibtex_show = true,
   selected    = {true},
   abbr        = {Thesis},
+  abstract    = {The advent of machine learning has enabled autonomy applications that may have remained
+impossible otherwise. However, the inherent limitations of machine learning make
+its use for safety-critical tasks perilous. This is evident in the plethora of safety challenges
+facing autonomous vehicles. Autonomous vehicles have the potential to save and improve
+lives, however, their widespread usage and adoption have been severely inhibited by challenges
+in ensuring the safe operation of these vehicles.
+
+This work redesigns the autonomy software with separated fulfillment of safety and mission
+responsibilities. Safety-critical requirements are disentangled from mission-critical requirements,
+reduced while maintaining sufficiency, and fulfilled using verifiable software.
+A safety-critical layer, composed of verifiable software only, monitors the existing complex
+learning-dependent mission-critical system for faults at runtime, overriding the actions of
+the vehicle when faults in the mission-critical system may lead to safety violations.
+
+Learning from a study of real-world fatal collisions involving autonomous driving, the
+proposed system design is first applied to the crucial challenge of obstacle existence detection
+faults, or false negatives, in autonomous vehicles. Requirements for obstacle existence
+detection, i.e., when is an obstacle considered sufficiently detected to enable collision avoidance,
+are analyzed and reduced. A LiDAR-based classical geometrical obstacle detection
+algorithm is then analyzed to determine the bounds for its capability to detect an obstacle
+and its limitations. This algorithm is evaluated against real-world datasets showing that it
+meets the reduced but sufficient safety-critical requirements. Finally, using this obstacle detection
+algorithm, a safety monitor for the autonomous driving system is designed to provide
+deterministic guarantees against collisions due to obstacle existence detection faults. The
+developed safety properties were validated using simulation for autonomous ground and air
+vehicles.
+
+To ensure the reliable operation of the autonomous system, it needs to be monitored
+for security incidents and malicious attacks. In general-purpose systems, system auditing
+is a crucial tool for the detection and analysis of such events. Therefore, in this work,
+system-level auditing is adapted to real-time systems, developing Ellipsis, the first system level
+security auditing system designed specifically for real-time systems. Ellipsis leverages
+the predictable repetition of behaviors in real-time systems to aggressively reduce the audit
+event logs generated by benign activity while preserving all security-relevant information
+and recording suspicious events in complete detail.},
 }
 
-@misc{rasul2025bayesian,
+@inproceedings{rasul2025bayesian,
   title         = {Bayesian Data Augmentation and Training for Perception DNN in Autonomous Aerial Vehicles},
   author        = {Rasul, Ashik and Tasnim, Humaira and Yoon, Hyung-Jin and Bansal, Ayoosh and Wang, Duo and Hovakimyan, Naira and Sha, Lui and Voulgaris, Petros},
   booktitle     = {AIAA SciTech 2025 Forum},
@@ -278,7 +312,7 @@
   abbr          = {Conference},
 }
 
-@misc{bansal2024verification,
+@inproceedings{bansal2025verification,
   title         = {Verification and Validation of a Vision-Based Landing System for Autonomous VTOL Air Taxis},
   author        = {Bansal, Ayoosh and Wang, Duo and Yeghiazaryan, Mikael and Li, Yangge and Tao, Chuyuan and Yoon, Hyung-Jin and Arora, Prateek and Papachristos, Christos and Voulgaris, Petros and Mitra, Sayan and others},
   booktitle     = {AIAA SCITECH 2025 Forum},
@@ -289,4 +323,43 @@
   pdf           = {https://arxiv.org/pdf/2412.08102},
   bibtex_show   = true,
   abbr          = {Conference},
+}
+
+@article{bansal2025towards,
+  author = {Bansal, Ayoosh and Sha, Lui},
+  title  = {Towards Certifiable Safety in Learning-Enabled Autonomous Systems: A Perspective},
+  year   = {2025},
+  month  = {March},
+  journal = {University of Illinois at Urbana-Champaign},
+  school = {University of Illinois at Urbana-Champaign},
+  organization = {University of Illinois at Urbana-Champaign},
+  pdf    = {https://hdl.handle.net/2142/121166},
+  url    = {https://hdl.handle.net/2142/121166},
+  bibtex_show   = true,
+  abbr   = {Preprint},
+  selected    = {true},
+  abstract  = {Machine learning has revolutionized the development of autonomous systems by enabling capabilities that would
+otherwise be infeasible. However, the integration of learning-based components introduces fundamental challenges for safety
+certification. This paper presents a perspective on achieving the
+safety certification of learning-enabled autonomous systems without compromising safety standards, with a focus on autonomous
+vehicles. This perspective explores ongoing research addressing
+the challenge of safety certification for learning-enabled systems
+and outlines promising future directions. The key recommendation is the use of certifiable classical software components
+to ensure that the autonomous system consistently fulfills its
+safety objectives, regardless of potential faults in learning-based
+components. However, the lack of certifiable classical alternatives
+for many safety-critical learning-enabled tasks poses a substantial
+challenge to the realization of such architectures.},
+}
+
+@inproceedings{bansal2025airtaxisim,
+  abbr        = {Conference},
+  author      = {Bansal, Ayoosh and Yeghiazaryan, Mikael and Hyung-Jin Yoon and Wang, Duo and Ashik E Rasul and Chuyuan Tao and Yang Zhao and Tianyi Zhu and Oswin So and Chuchu Fan and Voulgaris, Petros and Naira Hovakimyan and Sha, Lui},
+  booktitle   = {AIAA Aviation Forum 2025},
+  note        = {Ayoosh Bansal, Mikael Yeghiazaryan, and Hyung-Jin Yoon contributed equally to this work.},
+  pdf         = {airtaxisim.pdf},
+  title       = {AirTaxiSim: A Simulator for Autonomous Air Taxis},
+  year        = {2025},
+  bibtex_show = true,
+  code = {https://github.com/CPS-IL/airtaxisim},
 }
