@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*Synergistic Perception and Control Simplex* abstract accepted for [AIAA SciTech 2024](https://www.aiaa.org/events-learning/event/2024/01/08/default-calendar/2024-aiaa-science-and-technology-forum-and-exposition-(aiaa-scitech-forum)).
+*Synergistic Perception and Control Simplex* abstract accepted for [AIAA SciTech 2024](https://doi.org/10.2514/6.2024-1167).
