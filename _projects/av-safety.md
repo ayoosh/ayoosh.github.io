@@ -10,7 +10,7 @@ publications: bansal2021risk, bansal2022verifiable, bansal2022synergistic, bansa
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/img/synergistic-simplex-block.png" alt="Centered Image" style="width: 600px; height: auto;">
+  <img src="/assets/img/synergistic-simplex-block.png" alt="System architecture of Synergistic Simplex" style="width: 100%; max-width: 600px; height: auto;" data-zoomable>
 </div>
 <div class="caption">
     System architecture of Synergistic Simplex
@@ -46,9 +46,9 @@ While DNN has been deployed quite successfully to fulfill
 these complex requirements, their inherent limitations for
 complete verification and analysis, make
 them unsuitable for safety-critical tasks.
-<p>
-
 </p>
+
+<p>
 The impasse caused by the necessity of DNN solutions to
 enable AV’s mission capabilities and their unsuitability for
 safety-critical tasks can be resolved by decoupling the responsibilities of mission
@@ -62,7 +62,7 @@ a separation has not been achieved in AV.
 
 <p>
 Perception of obstacles remains a critical safety concern for AV.
-Real-world collisions have shown that the autonomy faults leading to fatal collisions originate from obstacle existence detection. Therefore, we first target such faults, while developing a generalized framework, extensibel to address other fault types.
+Real-world collisions have shown that the autonomy faults leading to fatal collisions originate from obstacle existence detection. Therefore, we first target such faults, while developing a generalized framework, extensible to address other fault types.
 </p>
 
 <p>

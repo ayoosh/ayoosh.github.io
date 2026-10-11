@@ -1295,6 +1295,12 @@ ninja-keys::part(ninja-input-wrapper) {
   margin: 0 auto;
   max-width: 600px; /* Adjust this value to increase or decrease the container size */
   width: 100%;
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
 }
         
 .video-description {
