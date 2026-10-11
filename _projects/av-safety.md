@@ -6,7 +6,7 @@ img: assets/img/polaris-gem.png
 importance: 1
 category: 
 related_publications: true
-publications: bansal2021risk, bansal2022verifiable, bansal2022synergistic, bansal2024perception, bansal2024synergistic
+publications: bansal2021risk, bansal2022verifiable, bansal2022synergistic, bansal2024perception, bansal2024synergistic, bansal2026synergistic
 ---
 
 <div style="text-align: center;">
