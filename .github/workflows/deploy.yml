@@ -13,6 +13,8 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "**.scss"
+      - "CNAME"
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
@@ -40,6 +42,8 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "**.scss"
+      - "CNAME"
       - "Gemfile"
       - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
@@ -63,24 +67,21 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # pinned: ubuntu-latest moves to Ubuntu 26.04 from 2026-10-19
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
+          ruby-version: "3.3" # 3.2 reached end-of-life in March 2026
           bundler-cache: true
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
+          # ImageMagick is no longer preinstalled on the runner; jekyll-imagemagick
+          # needs it to generate the responsive .webp images
+          sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
