@@ -27,16 +27,16 @@ The focus of my work is system architecture design,
 
 My interests span functional safety, temporal safety, and security in cyber-physical and real-time systems.
 Prior works
-  architected frameworks for achieving <a href="/projects/av-safety/"> verifiable safety in autonomous vehicles</a>,
-  mitigated <a href="/projects/inc-oc/"> execution time variability stemming from cache coherence mechanisms</a>,
+  architected frameworks for achieving <a href="/projects/av-safety/">verifiable safety in autonomous vehicles</a>,
+  mitigated <a href="/projects/inc-oc/">execution time variability stemming from cache coherence mechanisms</a>,
   and
-  enabled <a href="/projects/ellipsis/"> security auditing in real-time systems</a>.
+  enabled <a href="/projects/ellipsis/">security auditing in real-time systems</a>.
 
 <br> <br>
 
-I earned my PhD in CS at<a href="https://cs.illinois.edu/"> UIUC</a>,
+I earned my PhD in CS at <a href="https://cs.illinois.edu/">UIUC</a>,
 advised by <a href="https://cs.illinois.edu/about/people/faculty/lrs">Prof. Lui Sha</a>,
-MS in ECE at <a href="https://engineering.wisc.edu/departments/electrical-computer-engineering/">UWM</a>,
+MS in ECE at <a href="https://engineering.wisc.edu/departments/electrical-computer-engineering/">UW–Madison</a>,
 and BE Hons. EEE at <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a>.
 I have worked at <a href="https://www.nvidia.com/">Nvidia</a>, addressing execution time variability, building pre-silicon test infrastructure, and developing kernel drivers for Tegra systems.
 I also worked at <a href="https://www.netapp.com/">NetApp</a>, developing networked file systems.

@@ -4,7 +4,7 @@
 
 "Preprint":
   url:
-  color: "#ff7373"
+  color: "#c24b4b"
 
 "Journal":
   url:
@@ -12,4 +12,4 @@
 
 "Thesis":
   url:
-  color: "#ff0000"
+  color: "#d32f2f"
