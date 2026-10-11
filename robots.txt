@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ayoosh.github.io/sitemap.xml
+Sitemap: https://ayooshbansal.com/sitemap.xml
