@@ -692,6 +692,9 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
 
+          // the label is a <div> when the venue has no url; the global
+          // `div { color: var(--global-text-color) }` rule would otherwise win
+          div,
           a {
             color: white;
 
