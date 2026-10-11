@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-*AirTaxiSim: A Simulator for Autonomous Air Taxis* to appear in [AIAA Aviation Forum 2025](https://aiaa.org/aviation/), <a href="/assets/pdf/AirTaxiSim.pdf" target="_blank" rel="noopener noreferrer">preprint available</a>.
+*AirTaxiSim: A Simulator for Autonomous Air Taxis* to appear in [AIAA Aviation Forum 2025](https://doi.org/10.2514/6.2025-3349), <a href="/assets/pdf/AirTaxiSim.pdf" target="_blank" rel="noopener noreferrer">preprint available</a>.
